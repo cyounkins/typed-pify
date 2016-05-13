@@ -4,7 +4,7 @@ The type definition for [`pify`](https://github.com/sindresorhus/pify)
 
 ## Attribution
 
-Definitions moved to typings by [Craig Younkins](https://github.com/cyounkins). Originals on DefinitelyTyped were writte by [Sam Verschueren](https://github.com/samverschueren).
+Definitions moved to typings by [Craig Younkins](https://github.com/cyounkins). Original typings on DefinitelyTyped were written by [Sam Verschueren](https://github.com/samverschueren).
 
 ## LICENSE
 
