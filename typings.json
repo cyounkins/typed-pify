@@ -2,7 +2,7 @@
   "name": "pify",
   "main": "index.d.ts",
   "homepage": "https://github.com/sindresorhus/pify",
-  "version": "",
+  "version": "2.3.0",
   "devDependencies": {
     "blue-tape": "registry:npm/blue-tape#0.1.0+20160322235613"
   },
