@@ -78,13 +78,13 @@ test('multiArgs option', t => {
 
 test('wrap core method', t => {
     return pify(fs.readFile)('../package.json').then(r => {
-        t.is(JSON.parse(r).name, 'not-pify');
+        t.is(JSON.parse(r.toString()).name, 'not-pify');
     });
 });
 
 test('module support', t => {
     return pify(fs).readFile('../package.json').then(r => {
-        t.is(JSON.parse(r).name, 'not-pify');
+        t.is(JSON.parse(r.toString()).name, 'not-pify');
     });
 });
 
